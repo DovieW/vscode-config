@@ -123,6 +123,7 @@
   "terminal.integrated.hideOnStartup": "always",
   "terminal.integrated.localEchoEnabled": "on",
   "terminal.integrated.suggest.cdPath": "off",
+  "terminal.integrated.defaultProfile.linux": "bash", // bash isn't customized usually so the shell integration works and copilot benefits
   ///////////////////////////////////////////// git /////////////////////////////////////////////
   "git.autofetch": "all",
   "git.confirmSync": false,
