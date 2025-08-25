@@ -33,6 +33,7 @@
   "search.useIgnoreFiles": false,
   "search.quickOpen.history.filterSortOrder": "recency",
   "scm.repositories.visible": 0,
+  "security.workspace.trust.enabled": false,
   // base
   "editor.fontSize": 16,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -124,8 +125,23 @@
   "git.confirmSync": false,
   "git.openRepositoryInParentFolders": "always",
   "git.terminalAuthentication": false,
+  "git.terminalGitEditor": true,
   "git.untrackedChanges": "separate",
   "scm.showActionButton": false,
+  "git.allowForcePush": true,
+  "git.allowNoVerifyCommit": true,
+  "git.autoStash": true,
+  "git.closeDiffOnOperation": true,
+  "git.defaultBranchName": "master",
+  "git.defaultCloneDirectory": "${userHome}/repos",
+  "git.enableCommitSigning": true,
+  "git.fetchOnPull": true,
+  "git.followTagsWhenSync": true,
+  "git.scanRepositories": [
+    "${userHome}/repos"
+  ],
+  "git.timeline.showUncommitted": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
   // AI
   "editor.aiStats.enabled": true,
   "chat.agent.enabled": true,
@@ -154,6 +170,9 @@
   "chat.renderRelatedFiles": true,
   "chat.todoListTool.enabled": true,
   "inlineChat.notebookAgent": true,
+  "telemetry.feedback.enabled": false,
+  "github.copilot.chat.newWorkspace.useContext7": true,
+  "github.copilot.chat.virtualTools.threshold": 0,
   // themeing
   "editor.fontFamily": "\"FiraMono Nerd Font\"",
   "workbench.colorTheme": "Material Theme Ocean",
@@ -187,13 +206,15 @@
   "extensions.ignoreRecommendations": true,
   "workbench.welcomePage.walkthroughs.openOnInstall": false,
   "extensions.autoUpdate": "onlyEnabledExtensions",
+  "remote.SSH.remotePlatform": {
+    "*": "linux"
+  },
+  "remote.tunnels.alwaysUpdateCLI": true,
+  "remote.WSL.debug": true,
   "redhat.telemetry.enabled": false,
   "githubPullRequests.createOnPublishBranch": "never",
   "gitlens.hovers.enabled": false,
   "vscode-neovim.neovimExecutablePaths.linux": "/home/linuxbrew/.linuxbrew/bin/nvim",
   "vscode-neovim.useWSL": true,
-  "remote.SSH.remotePlatform": {
-    "*": "linux"
-  },
-  "remote.tunnels.alwaysUpdateCLI": true
+  "github.gitProtocol": "ssh"
 }
