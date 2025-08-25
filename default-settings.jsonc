@@ -90,7 +90,7 @@
   },
   "window.newWindowDimensions": "fullscreen",
   "window.zoomPerWindow": false,
-  "editor.lightbulb.enabled": "onCode",
+  "editor.lightbulb.enabled": "off",
   ///////////////////////////////////////////// terminal /////////////////////////////////////////////
   "accessibility.signals.terminalCommandFailed": {
     "sound": "off",
