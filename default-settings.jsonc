@@ -80,6 +80,13 @@
   "search.seedOnFocus": true,
   "search.smartCase": true,
   "debug.console.acceptSuggestionOnEnter": "on",
+  "remote.autoForwardPorts": false,
+  "remote.restoreForwardedPorts": false,
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  },
+  "window.newWindowDimensions": "fullscreen",
+  "window.zoomPerWindow": false,
   // terminal
   "accessibility.signals.terminalCommandFailed": {
     "sound": "off",
@@ -90,7 +97,7 @@
     "announcement": "off"
   },
   "accessibility.verbosity.terminal": false,
-  "terminal.integrated.allowChords": false,
+  // "terminal.integrated.allowChords": false,
   "terminal.integrated.confirmOnKill": "never",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorStyleInactive": "none",
@@ -100,23 +107,25 @@
   "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.mouseWheelZoom": true,
   "terminal.integrated.scrollback": 15000,
-  "terminal.integrated.sendKeybindingsToShell": true,
+  // "terminal.integrated.sendKeybindingsToShell": true,
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.stickyScroll.enabled": false,
+  // "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.stickyScroll.maxLineCount": 1,
   "terminal.integrated.tabs.focusMode": "singleClick",
   "terminal.integrated.tabs.hideCondition": "never",
-  "remote.autoForwardPorts": false,
-  "files.watcherExclude": {
-    "**/node_modules/**": true
-  },
-  "window.newWindowDimensions": "fullscreen",
-  "window.zoomPerWindow": false,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.hideOnStartup": "always",
+  "terminal.integrated.localEchoEnabled": "on",
+  "terminal.integrated.suggest.cdPath": "off",
   // git
   "git.autofetch": "all",
   "git.confirmSync": false,
   "git.openRepositoryInParentFolders": "always",
   "git.terminalAuthentication": false,
   "git.untrackedChanges": "separate",
+  "scm.showActionButton": false,
   // AI
   "editor.aiStats.enabled": true,
   "chat.agent.enabled": true,
@@ -141,6 +150,10 @@
   "github.copilot.chat.notebook.followCellExecution.enabled": true,
   "accessibility.voice.speechTimeout": 0,
   "search.searchView.semanticSearchBehavior": "auto",
+  "chat.editor.fontFamily": "\"FiraMono Nerd Font\"",
+  "chat.renderRelatedFiles": true,
+  "chat.todoListTool.enabled": true,
+  "inlineChat.notebookAgent": true,
   // themeing
   "editor.fontFamily": "\"FiraMono Nerd Font\"",
   "workbench.colorTheme": "Material Theme Ocean",
@@ -168,12 +181,12 @@
   "window.zoomLevel": 3,
   // extensions
   "extensions.autoRestart": true,
-  "extensions.autoUpdate": true,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
   "extensions.ignoreRecommendations": true,
   "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
   "redhat.telemetry.enabled": false,
   "githubPullRequests.createOnPublishBranch": "never",
   "gitlens.hovers.enabled": false,
