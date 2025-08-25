@@ -1,5 +1,5 @@
 {
-  // tentative
+  /////////////////////////////////////////////// tentative /////////////////////////////////////////////
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
   "editor.scrollbar.horizontal": "hidden",
@@ -35,7 +35,7 @@
   "scm.repositories.visible": 0,
   "security.workspace.trust.enabled": false,
   "editor.guides.indentation": false,
-  ///////////////////////////////////////////// base
+  ///////////////////////////////////////////// base /////////////////////////////////////////////
   "editor.fontSize": 16,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.mouseWheelZoom": true,
@@ -89,7 +89,8 @@
   },
   "window.newWindowDimensions": "fullscreen",
   "window.zoomPerWindow": false,
-  ///////////////////////////////////////////// terminal
+  "editor.lightbulb.enabled": "onCode",
+  ///////////////////////////////////////////// terminal /////////////////////////////////////////////
   "accessibility.signals.terminalCommandFailed": {
     "sound": "off",
     "announcement": "off"
@@ -121,7 +122,7 @@
   "terminal.integrated.hideOnStartup": "always",
   "terminal.integrated.localEchoEnabled": "on",
   "terminal.integrated.suggest.cdPath": "off",
-  ///////////////////////////////////////////// git
+  ///////////////////////////////////////////// git /////////////////////////////////////////////
   "git.autofetch": "all",
   "git.confirmSync": false,
   "git.openRepositoryInParentFolders": "always",
@@ -143,7 +144,7 @@
   ],
   "git.timeline.showUncommitted": true,
   "merge-conflict.autoNavigateNextConflict.enabled": true,
-  ///////////////////////////////////////////// AI
+  ///////////////////////////////////////////// AI /////////////////////////////////////////////
   "editor.aiStats.enabled": true,
   "chat.agent.enabled": true,
   "chat.agent.maxRequests": 100,
@@ -174,7 +175,7 @@
   "telemetry.feedback.enabled": false,
   "github.copilot.chat.newWorkspace.useContext7": true,
   "github.copilot.chat.virtualTools.threshold": 0,
-  ///////////////////////////////////////////// themeing
+  ///////////////////////////////////////////// themeing /////////////////////////////////////////////
   "editor.fontFamily": "\"FiraMono Nerd Font\"",
   "workbench.colorTheme": "Material Theme Ocean",
   "workbench.iconTheme": "material-icon-theme",
@@ -199,7 +200,7 @@
   "workbench.navigationControl.enabled": false,
   "workbench.panel.showLabels": false,
   "window.zoomLevel": 3,
-  ///////////////////////////////////////////// extensions
+  ///////////////////////////////////////////// extensions /////////////////////////////////////////////
   "extensions.autoRestart": true,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
