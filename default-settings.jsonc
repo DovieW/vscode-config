@@ -201,7 +201,7 @@
   ],
   "workbench.navigationControl.enabled": false,
   "workbench.panel.showLabels": false,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 3,
   ///////////////////////////////////////////// extensions /////////////////////////////////////////////
   "extensions.autoRestart": true,
   "extensions.experimental.affinity": {
