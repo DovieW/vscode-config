@@ -3,7 +3,8 @@
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
   "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
+  // "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 2,
   "editor.scrollBeyondLastLine": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -195,7 +196,8 @@
   "window.menuBarVisibility": "toggle",
   "window.restoreFullscreen": true,
   "vscode_custom_css.imports": [
-    ""
+    "file:///${userHome}/repos/files/programs/vscode/custom-css-js/styles.css",
+    "file:///${userHome}/repos/files/programs/vscode/custom-css-js/script.js"
   ],
   "workbench.navigationControl.enabled": false,
   "workbench.panel.showLabels": false,
