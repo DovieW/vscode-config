@@ -177,6 +177,7 @@
   "telemetry.feedback.enabled": false,
   "github.copilot.chat.newWorkspace.useContext7": true,
   "github.copilot.chat.virtualTools.threshold": 0,
+  "chat.emptyState.history.enabled": true,
   ///////////////////////////////////////////// themeing /////////////////////////////////////////////
   "editor.fontFamily": "\"FiraMono Nerd Font\"",
   "workbench.colorTheme": "Material Theme Ocean",
