@@ -197,8 +197,8 @@
   "window.menuBarVisibility": "toggle",
   "window.restoreFullscreen": true,
   "vscode_custom_css.imports": [
-    "file:///${userHome}/repos/files/programs/vscode/custom-css-js/styles.css",
-    "file:///${userHome}/repos/files/programs/vscode/custom-css-js/script.js"
+    "file:///${userHome}/repos/vscode-config/custom-css-js/styles.css",
+    "file:///${userHome}/repos/vscode-config/custom-css-js/script.js"
   ],
   "workbench.navigationControl.enabled": false,
   "workbench.panel.showLabels": false,
