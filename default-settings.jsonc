@@ -1,5 +1,7 @@
 {
   /////////////////////////////////////////////// tentative /////////////////////////////////////////////
+  "editor.stickyScroll.enabled": false,
+  "scm.diffDecorations": "none",
   "git.decorations.enabled": false,
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
@@ -91,6 +93,8 @@
   "window.newWindowDimensions": "fullscreen",
   "window.zoomPerWindow": false,
   "editor.lightbulb.enabled": "off",
+  "files.insertFinalNewline": true,
+  "editor.showFoldingControls": "never",
   ///////////////////////////////////////////// terminal /////////////////////////////////////////////
   "accessibility.signals.terminalCommandFailed": {
     "sound": "off",
