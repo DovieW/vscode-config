@@ -223,7 +223,9 @@
   "vscode-neovim.neovimExecutablePaths.linux": "/home/linuxbrew/.linuxbrew/bin/nvim",
   "vscode-neovim.useWSL": true,
   "vscode-neovim.afterInitConfig": [
-    "set clipboard+=unnamedplus"
+    "set clipboard+=unnamedplus",
+    "set ignorecase",
+    "set smartcase"
   ],
   "github.gitProtocol": "ssh"
 }
