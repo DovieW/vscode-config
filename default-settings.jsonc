@@ -222,5 +222,8 @@
   "gitlens.hovers.enabled": false,
   "vscode-neovim.neovimExecutablePaths.linux": "/home/linuxbrew/.linuxbrew/bin/nvim",
   "vscode-neovim.useWSL": true,
+  "vscode-neovim.afterInitConfig": [
+    "set clipboard+=unnamedplus"
+  ],
   "github.gitProtocol": "ssh"
 }
