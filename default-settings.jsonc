@@ -1,5 +1,6 @@
 {
   /////////////////////////////////////////////// tentative /////////////////////////////////////////////
+  "git.decorations.enabled": false,
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
   "editor.scrollbar.horizontal": "hidden",
@@ -61,10 +62,9 @@
   "workbench.tips.enabled": false,
   "workbench.editor.enablePreview": false,
   "workbench.tree.indent": 11,
-  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.renderIndentGuides": "none",
   "window.closeWhenEmpty": true,
   "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
   "debug.openDebug": "neverOpen",
   "http.experimental.systemCertificatesV2": true,
   "telemetry.telemetryLevel": "off",
@@ -193,17 +193,24 @@
   "breadcrumbs.enabled": false,
   "workbench.editor.showTabs": "none",
   "workbench.editor.tabActionCloseVisibility": false,
-  "window.customTitleBarVisibility": "windowed",
+  "window.customTitleBarVisibility": "never",
   "window.density.editorTabHeight": "compact",
   "window.menuBarVisibility": "toggle",
   "window.restoreFullscreen": true,
-  "vscode_custom_css.imports": [
-    "file:///${userHome}/repos/vscode-config/custom-css-js/styles.css",
-    "file:///${userHome}/repos/vscode-config/custom-css-js/script.js"
-  ],
+  //"vscode_custom_css.imports": [
+    //"file:///${userHome}/repos/vscode-config/custom-css-js/styles.css",
+    //"file:///${userHome}/repos/vscode-config/custom-css-js/script.js"
+  //],
   "workbench.navigationControl.enabled": false,
   "workbench.panel.showLabels": false,
   "window.zoomLevel": 3,
+  "explorer.compactFolders": false,
+  // Animations
+  "animations.Install-Method": "Custom UI Style",
+  "animations.Active": "None",
+  "animations.Command-Palette": "Slide",
+  "animations.Default-Duration": 100,
+  "animations.Scrolling": "None",
   ///////////////////////////////////////////// extensions /////////////////////////////////////////////
   "extensions.autoRestart": true,
   "extensions.experimental.affinity": {
