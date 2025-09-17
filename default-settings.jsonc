@@ -1,12 +1,16 @@
 {
   /////////////////////////////////////////////// tentative /////////////////////////////////////////////
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.selectionHighlight": true,
+  "editor.occurrencesHighlight": "singleFile",
   "editor.stickyScroll.enabled": false,
   "scm.diffDecorations": "none",
   "git.decorations.enabled": false,
   "window.customMenuBarAltFocus": false,
   "window.enableMenuBarMnemonics": false,
   "editor.scrollbar.horizontal": "hidden",
-  // "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 2,
   "editor.scrollBeyondLastLine": false,
   "editor.formatOnPaste": true,
@@ -95,6 +99,7 @@
   "editor.lightbulb.enabled": "off",
   "files.insertFinalNewline": true,
   "editor.showFoldingControls": "never",
+  "editor.renderWhitespace": "selection",
   ///////////////////////////////////////////// terminal /////////////////////////////////////////////
   "accessibility.signals.terminalCommandFailed": {
     "sound": "off",
@@ -215,6 +220,7 @@
   "animations.Command-Palette": "Slide",
   "animations.Default-Duration": 100,
   "animations.Scrolling": "None",
+  "editor.renderLineHighlightOnlyWhenFocus": true,
   ///////////////////////////////////////////// extensions /////////////////////////////////////////////
   "extensions.autoRestart": true,
   "extensions.experimental.affinity": {
