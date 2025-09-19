@@ -1,0 +1,13 @@
+{
+  // easy
+  "chat.tools.terminal.autoApprove": {
+    "git log": true,
+    "git blame": true,
+    "npm ci": true,
+    "npm run build'": true
+  },
+  // dangerous
+  "chat.tools.terminal.autoApprove": {
+    "npm install": true
+  }
+}
