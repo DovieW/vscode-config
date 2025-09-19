@@ -4,7 +4,15 @@
     "git log": true,
     "git blame": true,
     "npm ci": true,
-    "npm run build'": true
+    "npm run build'": true,
+    "node --version": {
+	    "approve": true,
+	    "matchCommandLine": true
+    },
+    "npm --version": {
+	    "approve": true,
+	    "matchCommandLine": true
+    }
   },
   // dangerous
   "chat.tools.terminal.autoApprove": {
