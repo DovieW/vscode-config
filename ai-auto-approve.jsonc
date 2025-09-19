@@ -5,6 +5,7 @@
     "git blame": true,
     "npm ci": true,
     "npm run build'": true,
+        "npm test": true,
     "node --version": {
 	    "approve": true,
 	    "matchCommandLine": true
