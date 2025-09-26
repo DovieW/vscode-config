@@ -32,7 +32,7 @@
   "explorer.fileNesting.enabled": true,
   "search.collapseResults": "alwaysCollapse",
   "search.defaultViewMode": "tree",
-  "search.mode": "newEditor",
+  //"search.mode": "newEditor",
   "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
   // "search.searchEditor.focusResultsOnSearch": true,
   "search.searchEditor.reusePriorSearchConfiguration": true,
