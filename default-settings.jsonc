@@ -216,6 +216,7 @@
   "workbench.panel.showLabels": false,
   "window.zoomLevel": 3,
   "explorer.compactFolders": false,
+  "editor.matchBrackets": "never",
   // Animations
   "animations.Install-Method": "Custom UI Style",
   "animations.Active": "None",
