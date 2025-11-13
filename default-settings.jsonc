@@ -158,6 +158,7 @@
   "git.timeline.showUncommitted": true,
   "merge-conflict.autoNavigateNextConflict.enabled": true,
   "scm.repositories.selectionMode": "single",
+  "scm.repositories.explorer": true,
   ///////////////////////////////////////////// AI /////////////////////////////////////////////
   "editor.aiStats.enabled": true,
   "chat.agent.enabled": true,
