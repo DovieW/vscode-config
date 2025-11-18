@@ -186,7 +186,6 @@
   "github.copilot.chat.languageContext.typescript.enabled": true,
   "github.copilot.chat.notebook.followCellExecution.enabled": true,
   "accessibility.voice.speechTimeout": 0,
-  "search.searchView.semanticSearchBehavior": "auto",
   "chat.editor.fontFamily": "\"FiraMono Nerd Font\"",
   "chat.renderRelatedFiles": true,
   "chat.todoListTool.enabled": true,
