@@ -69,7 +69,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.tree.indent": 11,
   "workbench.tree.renderIndentGuides": "none",
-  "window.closeWhenEmpty": true,
   "explorer.confirmDelete": false,
   "debug.openDebug": "neverOpen",
   "http.experimental.systemCertificatesV2": true,
