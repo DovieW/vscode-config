@@ -1,5 +1,6 @@
 {
   /////////////////////////////////////////////// tentative /////////////////////////////////////////////
+  "security.workspace.trust.banner": "never",
   "editor.hideCursorInOverviewRuler": true,
   "editor.overviewRulerBorder": false,
   "editor.selectionHighlight": true,
