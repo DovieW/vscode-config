@@ -84,7 +84,6 @@
   "workbench.editor.preventPinnedEditorClose": "keyboard",
   "workbench.editor.tabActionUnpinVisibility": true,
   "window.confirmSaveUntitledWorkspace": false,
-  "explorer.expandSingleFolderWorkspaces": false,
   "search.seedOnFocus": true,
   "search.smartCase": true,
   "debug.console.acceptSuggestionOnEnter": "on",
