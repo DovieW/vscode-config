@@ -234,7 +234,6 @@
     "asvetliakov.vscode-neovim": 1
   },
   "vscode-neovim.ctrlKeysForInsertMode": [
-    "a",
     "d",
     "h",
     "j",
