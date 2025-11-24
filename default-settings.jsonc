@@ -233,6 +233,18 @@
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
+  "vscode-neovim.ctrlKeysForInsertMode": [
+    "a",
+    "d",
+    "h",
+    "j",
+    "m",
+    "o",
+    "r",
+    "t",
+    "u",
+    "w"
+  ],
   "extensions.ignoreRecommendations": true,
   "workbench.welcomePage.walkthroughs.openOnInstall": false,
   "extensions.autoUpdate": "onlyEnabledExtensions",
