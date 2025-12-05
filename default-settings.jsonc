@@ -45,6 +45,7 @@
   "security.workspace.trust.enabled": false,
   "editor.guides.indentation": false,
   ///////////////////////////////////////////// base /////////////////////////////////////////////
+  "markdown.preview.doubleClickToSwitchToEditor": false,
   "editor.fontSize": 16,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.mouseWheelZoom": true,
