@@ -31,7 +31,6 @@
   "accessibility.openChatEditedFiles": false,
   "explorer.autoReveal": false,
   "explorer.fileNesting.enabled": true,
-  "search.collapseResults": "alwaysCollapse",
   "search.defaultViewMode": "tree",
   //"search.mode": "newEditor",
   "search.searchEditor.doubleClickBehaviour": "openLocationToSide",
