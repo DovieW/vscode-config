@@ -1,0 +1,12 @@
+[
+  {
+    "key": "alt+e",
+    "command": "markdown.showPreview",
+    "when": "!notebookEditorFocused && editorTextFocus && editorLangId =~ /^(markdown|prompt|instructions|chatmode)$/"
+  },
+  {
+    "key": "alt+e",
+    "command": "markdown.showSource",
+    "when": "markdownPreviewFocus || activeWebviewPanelId == 'markdown.preview' || activeEditor == 'workbench.editor.markdownPreview'"
+  }
+]
