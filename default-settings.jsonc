@@ -171,7 +171,7 @@
   ///////////////////////////////////////////// AI /////////////////////////////////////////////
   "editor.aiStats.enabled": true,
   "chat.agent.enabled": true,
-  "chat.agent.maxRequests": 100,
+  "chat.agent.maxRequests": 99999,
   "chat.agent.showThinking": true,
   "chat.agentSessionsViewLocation": "view",
   "chat.checkpoints.showFileChanges": true,
@@ -197,8 +197,11 @@
   "inlineChat.notebookAgent": true,
   "telemetry.feedback.enabled": false,
   "github.copilot.chat.newWorkspace.useContext7": true,
-  "github.copilot.chat.virtualTools.threshold": 0,
   "chat.emptyState.history.enabled": true,
+  "chat.agentSkillsLocations": {
+    "~/.agents/skills": true
+  },
+  "chat.agent.thinking.collapsedTools": "off",
   ///////////////////////////////////////////// themeing /////////////////////////////////////////////
   "editor.fontFamily": "\"FiraMono Nerd Font\"",
   "workbench.colorTheme": "Material Theme Ocean",
