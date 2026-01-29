@@ -198,9 +198,6 @@
   "telemetry.feedback.enabled": false,
   "github.copilot.chat.newWorkspace.useContext7": true,
   "chat.emptyState.history.enabled": true,
-  "chat.agentSkillsLocations": {
-    "~/.agents/skills": true
-  },
   "chat.agent.thinking.collapsedTools": "off",
   ///////////////////////////////////////////// themeing /////////////////////////////////////////////
   "editor.fontFamily": "\"FiraMono Nerd Font\"",
